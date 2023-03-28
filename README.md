@@ -1,3 +1,4 @@
+```mermaid
 flowchart TD
     Start([Start])
     Start --> ProjectFrontEnd[Project Based Frontend]
@@ -18,3 +19,4 @@ flowchart TD
     MockMERN --> |Failed - Try Mock interview in next 15 Days| MockMERN
     style CSPFrontend fill:#00f
     style CSPMERN fill:#00f
+```
