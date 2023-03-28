@@ -10,4 +10,14 @@ public class HomeController {
     public String home() {
         return "Welcome to home page";
     }
+
+    @GetMapping("/user")
+    public String user() {
+        return "Welcome to the user page";
+    }
+
+    @GetMapping("/admin")
+    public String admin() {
+        return "Welcome to the admin page";
+    }
 }
